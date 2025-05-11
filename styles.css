@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: rgb(189, 61, 63);
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-self: center;
+    position:fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    
+
+}
+.logo{
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+}
+.imagelogo{
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+    justify-content: left;
+}
+
+            
+.headingtitle{
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-flow: row;
+}
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+}
+.navbar nav ul button{
+    margin-top: 5px;
+    padding: 8px;
+    color: rgb(255, 251, 251);
+    border-radius: 3px;
+    border: none;
+    background-color:rgb(189, 61, 63) ;
+    cursor:pointer;
+}
+.navbar nav ul button:hover{
+    color: white;
+    background-color: rgb(183, 148, 148);
+    transition-duration: 2s;
+
+}
+
+.backgroundimage{
+    height: 60vh;
+    width: 100%;
+}
+/* styling about */
+.about{
+    display: flex;
+    flex-direction: row;
+}
+.aboutinfo{
+    margin-left:20px ;
+}
+.aboutimage{
+    width: 90vh;
+    height: 70vh;
+}
+.aboutheading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 14px;
+    margin-top: 14px;
+    color: rgb(188, 90, 90);
+    margin-bottom:14px ;
+}
+/* insults section */
+.insultsheadline{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(180, 74, 74);
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 14px;
+}
+.inputsearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchinsults{
+    height: 30px;
+    border: solid black;
+    border-radius: 6px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    width: 400px;
+}
+
+.insultslists{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+.insultslists button{
+    border: none;
+    border-radius: 8px;
+    color: rgb(10, 10, 10);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.insultslists button:hover{
+    background-color: rgb(182, 89, 89);
+    color: white;
+   
+}
+.footercontacts{
+    display: flex;
+    flex-flow: row;
+}
+.navfooter{
+    list-style: none;
+    flex-direction: row;
+    gap: 20px;
+}
